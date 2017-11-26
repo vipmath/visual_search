@@ -18,6 +18,12 @@ A visual search engine based on Elasticsearch and Tensorflow
  pip install -r requirements.txt
  ```
 
+* Then
+
+```
+cd visual_search/lib & make
+```
+
 ## Setup
  * Setup Elasticsearch
 
