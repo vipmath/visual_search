@@ -77,4 +77,8 @@ python index_es.py --weight ./models/vgg16.weights --model_path ./models/faster_
 
 ## Issue
 
+```
+export CFLAGS="-I /usr/local/lib/python3.5/dist-packages/numpy/core/include $CFLAGS"
+```
+
 https://github.com/tensorflow/tensorflow/issues/251
