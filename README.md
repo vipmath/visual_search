@@ -9,6 +9,14 @@ A visual search engine based on Elasticsearch and Tensorflow
  * `Flask`
  * `opencv-python`
  * `easydict`
+ * `cython`
+ * `numpy`
+ 
+ * Or
+ 
+ ```
+ pip install -r requirements.txt
+ ```
 
 ## Setup
  * Setup Elasticsearch
