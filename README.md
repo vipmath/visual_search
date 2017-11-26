@@ -73,7 +73,7 @@ cd visual_search/lib & make
 ### Example
 
 ```
-python index_es.py --weight ./models/vgg16.weights --model_path ./models/faster_rcnn_models/vgg16_faster_rcnn_iter_490000.ckpt --input ./KGSoutput/2002-01-01-9.png
+sudo python index_es.py --weight ./models/imagenet_weights/vgg16.weights --model_path ./models/faster_rcnn_models/coco_2014_train+coco_2014_valminusminival/default/vgg16_faster_rcnn_iter_490000.ckpt --input ../KGSoutput/2002-01-01-9.png
 ```
 
 ## Start server
