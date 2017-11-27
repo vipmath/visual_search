@@ -56,7 +56,7 @@ cd visual_search/lib & make
  * Index preparation
 
  ```bash
- curl -XPUT http://localhost:9200/img_data -d @schema_es.json
+ curl -XPUT http://localhost:9200/im_data -d @schema_es.json
  ```
  * Setup faster r-cnn
 
